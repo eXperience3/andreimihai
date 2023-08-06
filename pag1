@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Magazin Online</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Magazin Online</h1>
+        <nav>
+            <ul>
+                <li><a href="products.html">Produse</a></li>
+                <li><a href="about.html">Despre Noi</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="product-list">
+        <div class="product">
+            <img src="product1.jpg" alt="Produs 1">
+            <h2>Produs 1</h2>
+            <p>Descriere scurtă a produsului 1.</p>
+            <a href="product1.html">Detalii</a>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Produs 2">
+            <h2>Produs 2</h2>
+            <p>Descriere scurtă a produsului 2.</p>
+            <a href="product2.html">Detalii</a>
+        </div>
+        <!-- Adăugați mai multe produse aici -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Magazin Online. Toate drepturile rezervate.</p>
+    </footer>
+</body>
+</html>
